@@ -1,8 +1,10 @@
 # QingJian (青简)
-> Simplicity to write, elegance to publish — a browser‑native offline creative environment with Markdown syntax support.
-**The Lightweight Markdown Studio** · Pure front‑end · No install · No network required · Fully offline.
 
-QingJian is an offline creative workspace ready for teaching demonstrations, knowledge notes and problem‑solving practice. Simply download a single HTML file and double‑click to get started. It supports extended Markdown syntax and bundles LaTeX math, all Mermaid diagram types, ABC musical notation, chemical‑structure rendering, physics/chemistry/astronomy simulations, text‑to‑speech e‑book reading, and an internet‑radio player. Every resource ships with the package and loads offline.
+> Simplicity to write, elegance to publish — a browser-native offline creation environment with Markdown support.
+
+**The Lightweight Markdown Studio** · Pure front-end · No install · No network required · Fully offline.
+
+QingJian is a ready-to-use **offline creation workbench**: download a single HTML file, double-click, and start teaching demos, knowledge notes, and exercise walkthroughs. It is compatible with mainstream Markdown extensions and bundles LaTeX math, all Mermaid diagram types, ABC musical notation, chemical structure rendering, physics/chemistry/astronomy simulations, TTS e-book reading, and an internet radio player. Every resource ships with the package and loads offline — no network, no sign-up, no installation. (Streaming radio and cloud voice services are the only online features.)
 
 ## Feature Highlights
 
@@ -19,15 +21,17 @@ QingJian is an offline creative workspace ready for teaching demonstrations, kno
 | Radio | `radio` code block + local channel manager (m3u8 / mp3 / aac streams, localStorage, `.m3u` batch import) |
 | Engineering | Split edit-preview, TOC / file tree, source line numbers + highlight + autocomplete, multi-tabs, recent files, PDF / HTML / Word export, image & media insert, folder open |
 | Platform | PC / Android responsive (landscape & portrait, proportional scaling), standalone / split / modular builds |
+| UX | File-tree subdirectories collapsed by default (no image-dir flood), recent files one-click clear, welcome page exportable as standalone HTML |
 
 ## Quick Start
 
 ```bash
 # Option 1: Standalone (recommended)
 #   open dist/QingJian-standalone.html  (~12 MB, everything embedded)
+#   Note: the standalone build has no bundled demo — see demo/Markdown-语法样例精讲.md
 
 # Option 2: Split build
-#   open dist-split/QingJian-split.html  (~5 MB, needs ./assets/)
+#   open dist-split/QingJian-split.html  (~5.1 MB, needs ./assets/)
 
 # Option 3: Modular project (development)
 #   unzip QingJian-v14.21-modular.zip — see docs/ARCHITECTURE.md
