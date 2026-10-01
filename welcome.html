@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>青简 QingJian · 欢迎首页</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #fafbfc; color: #1e293b; }
+  .wp { max-width: 920px; margin: 0 auto; padding: 48px 24px 96px; }
+  .brand { text-align: center; padding: 40px 0 8px; }
+  .brand-logo { width: 76px; height: 76px; margin: 0 auto 14px; }
+  .brand h1 { font-size: 40px; letter-spacing: 6px; color: #0b3d6b; font-weight: 700; }
+  .brand .en { color: #94a3b8; font-size: 15px; letter-spacing: 3px; margin-top: 4px; }
+  .brand .slogan { color: #64748b; font-size: 14px; margin-top: 10px; }
+  .actions { display: flex; justify-content: center; gap: 14px; margin: 30px 0 6px; flex-wrap: wrap; }
+  .wbtn { padding: 11px 26px; border-radius: 999px; border: 1px solid #d3dce6; background: #fff; font-size: 15px; cursor: pointer; }
+  .wbtn:hover { border-color: #0072c4; background: #e6f2ff; }
+  .wbtn.primary { background: #0072c4; color: #fff; border-color: #0072c4; }
+  .tagline { text-align: center; color: #94a3b8; font-size: 13px; margin: 16px 0 36px; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 24px 0; }
+  .card { background: #fff; border: 1px solid #e5edf5; border-radius: 16px; padding: 20px; }
+  .card h4 { font-size: 15px; margin-bottom: 6px; color: #0b3d6b; }
+  .card p { font-size: 13px; color: #64748b; }
+  .qc-ico { font-size: 26px; display: block; margin-bottom: 8px; }
+  .recents { background: #fff; border: 1px solid #e5edf5; border-radius: 16px; padding: 18px 20px; }
+  .recents h3 { font-size: 15px; display: flex; align-items: center; }
+  .ra { margin-left: auto; display: inline-flex; gap: 6px; }
+  .ra button { font-size: 12px; padding: 3px 10px; border-radius: 999px; border: 1px solid #d3dce6; background: #fff; color: #555; cursor: pointer; }
+  .ra button:hover { background: #e6f2ff; color: #0072c4; }
+  .rf-item { padding: 10px 4px; border-bottom: 1px solid #f1f5f9; font-size: 14px; color: #334155; display: flex; align-items: center; gap: 8px; }
+  .rf-item:last-child { border-bottom: none; }
+  .empty { color: #999; padding: 14px 4px; font-size: 13px; }
+  @media (max-width: 640px) { .cards { grid-template-columns: 1fr 1fr; } .brand h1 { font-size: 30px; } }
+</style>
+</head>
+<body>
+<div class="wp">
+  <div class="brand">
+    <svg class="brand-logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#0072c4"/><path fill="#fff" d="M7.2 15.2 Q7.2 16.4 8.1 17.7 Q9.4 17.1 10.8 16.7 Q12.5 16.1 13.7 16.6 Q15.6 16.6 17.4 16.5 Q18.8 16.4 19.8 16.2 Q20.4 15.3 20.1 14.4 Q19.7 13.8 18.8 13.6 Q16.8 13.8 14.7 14.1 Q12.6 14.2 10.5 14.0 Q9.3 14.2 8.0 14.7 Q7.4 15.0 7.2 15.2Z"/><path fill="#fff" d="M15.7 5.4 Q15.4 5.6 14.4 6.0 Q13.2 6.5 12.5 6.3 Q11.1 6.0 10.1 6.7 L9.0 6.7 L9.4 8.8 Q10.3 8.7 11.1 8.4 Q12.0 8.2 13.0 8.4 Q14.0 8.4 14.8 8.0 Q15.4 7.7 15.7 7.4 Q16.0 7.2 16.1 7.3Z"/><path fill="#fff" d="M10.9 9.2 Q10.5 10.1 10.3 11.6 Q10.1 13.2 10.1 14.3 Q10.7 14.2 11.6 14.0 Q11.8 13.4 11.8 12.8 Q11.8 12.0 12.0 10.5 Q12.1 9.5 12.4 8.9Z"/><path fill="#fff" d="M12.8 14.3 Q13.7 14.1 14.4 14.0 Q14.5 13.1 14.6 11.8 Q14.7 10.7 14.7 10.1 Q14.8 9.3 15.0 8.9 Q14.2 9.0 13.4 9.2 Q13.1 9.9 13.0 10.9 Q12.9 12.3 12.8 14.3Z"/></svg>
+    <h1>青简</h1>
+    <div class="en">QingJian · The Lightweight Markdown Studio</div>
+    <div class="slogan">以简驭繁 · 落笔成章</div>
+  </div>
+  <div class="actions">
+    <button class="wbtn primary" type="button" onclick="alert('请在青简 QingJian 主程序中新建文档')">＋ 新建文档</button>
+    <button class="wbtn" type="button" onclick="alert('请在青简 QingJian 主程序中打开文件')">打开文件</button>
+    <button class="wbtn" type="button" onclick="alert('请在青简 QingJian 主程序中打开文件夹')">打开文件夹</button>
+  </div>
+  <div class="tagline">From plain text to beautiful pages — offline, forever.</div>
+  <div class="cards">
+    <div class="card"><span class="qc-ico">📝</span><h4>基础语法</h4><p>标题 · 强调 · 列表 · 引用</p></div>
+    <div class="card"><span class="qc-ico">🧮</span><h4>数学公式</h4><p>KaTeX · mhchem 化学式</p></div>
+    <div class="card"><span class="qc-ico">📊</span><h4>Mermaid 图表</h4><p>24 种图表 · 离线渲染</p></div>
+    <div class="card"><span class="qc-ico">🎼</span><h4>五线谱</h4><p>ABC 乐谱 · 钢琴试听</p></div>
+    <div class="card"><span class="qc-ico">🧪</span><h4>扩展仿真</h4><p>chart · smiles · physim</p></div>
+    <div class="card"><span class="qc-ico">🔊</span><h4>朗读电子书</h4><p>epub · 卡拉OK 跟读</p></div>
+  </div>
+  <div class="recents">
+    <h3>最近打开
+      <span class="ra">
+        <button type="button" onclick="localStorage.removeItem('mp-recent-files');renderRecents()">清空</button>
+      </span>
+    </h3>
+    <div id="rf-list"></div>
+  </div>
+</div>
+<script>
+  function esc(x){ return String(x).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
