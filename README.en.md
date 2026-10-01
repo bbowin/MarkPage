@@ -1,10 +1,8 @@
 # QingJian (青简)
+> Simplicity to write, elegance to publish — a browser‑native offline creative environment with Markdown syntax support.
+**The Lightweight Markdown Studio** · Pure front‑end · No install · No network required · Fully offline.
 
-> Simplicity to write, elegance to publish — an offline browser Markdown + HTML studio.
-
-**The Lightweight Markdown Studio** · Pure front-end · No install · No network required · Fully offline.
-
-QingJian is a ready-to-use Markdown editor: download a single HTML file, double-click, and start writing. It bundles mainstream Markdown extensions, LaTeX math, all Mermaid diagram types, ABC musical notation, chemical structure rendering, physics/chemistry/astronomy simulations, text-to-speech e-book reading, and an internet radio player. Every resource ships with the package and loads offline.
+QingJian is an offline creative workspace ready for teaching demonstrations, knowledge notes and problem‑solving practice. Simply download a single HTML file and double‑click to get started. It supports extended Markdown syntax and bundles LaTeX math, all Mermaid diagram types, ABC musical notation, chemical‑structure rendering, physics/chemistry/astronomy simulations, text‑to‑speech e‑book reading, and an internet‑radio player. Every resource ships with the package and loads offline.
 
 ## Feature Highlights
 
